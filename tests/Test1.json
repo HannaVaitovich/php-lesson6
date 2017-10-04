@@ -1,0 +1,38 @@
+[
+  {
+    "id": " Question #1",
+    "question": "How many days are in August?",
+    "answers": 
+    {
+      "v1": "31",
+      "v2": "30",
+      "v3": "28",
+      "v4": "29"
+    },
+    "correctAnswer": "v1"
+  },
+  {
+    "id": "Question #2",
+    "question": "How many weeks are in a year?",
+    "answers": 
+    {
+      "v1": "50",
+      "v2": "53",
+      "v3": "52",
+      "v4": "51"
+    },
+    "correctAnswer": "v3"
+  },
+  {
+    "id": " Question #3",
+    "question": "How many seconds are in 1 hour?",
+    "answers": 
+    {
+      "v1": "3250",
+      "v2": "3600",
+      "v3": "2800",
+      "v4": "4200"
+    },
+    "correctAnswer": "v2"
+  }
+]

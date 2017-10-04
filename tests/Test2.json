@@ -1,0 +1,38 @@
+[
+  {
+    "id": " Question #1",
+    "question": "What is the capital of Belarus?",
+    "answers": 
+    {
+      "v1": "Moscow",
+      "v2": "Kiev",
+      "v3": "Mogilev",
+      "v4": "Minsk"
+    },
+    "correctAnswer": "v4"
+  },
+  {
+    "id": "Question #2",
+    "question": "What is the capital of USA?",
+    "answers": 
+    {
+      "v1": "New York",
+      "v2": "Washington, D.C.",
+      "v3": "Los Angeles",
+      "v4": "San Francisco"
+    },
+    "correctAnswer": "v2"
+  },
+  {
+    "id": " Question #3",
+    "question": "What is the capital of Texas?",
+    "answers": 
+    {
+      "v1": "Dallas",
+      "v2": "Austin",
+      "v3": "Houston",
+      "v4": "San Antonio"
+    },
+    "correctAnswer": "v2"
+  }
+]

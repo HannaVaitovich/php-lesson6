@@ -1,0 +1,38 @@
+[
+  {
+    "id": " Question #1",
+    "question": "Whose portrait is on the 100 dollar bill?",
+    "answers": 
+    {
+      "v1": "Abraham Lincoln",
+      "v2": "George Washington",
+      "v3": "Benjamin Franklin",
+      "v4": "Thomas Jefferson"
+    },
+    "correctAnswer": "v3"
+  },
+  {
+    "id": "Question #2",
+    "question": "Who was the first president of United States?",
+    "answers": 
+    {
+      "v1": "George Washington",
+      "v2": "Benjamin Franklin",
+      "v3": "Abraham Lincoln",
+      "v4": "Thomas Jefferson"
+    },
+    "correctAnswer": "v1"
+  },
+  {
+    "id": " Question #3",
+    "question": "What president signed The North Atlantic Treaty establishing the North Atlantic Treaty Organization(NATO)?",
+    "answers": 
+    {
+      "v1": "Franklin Roosevelt",
+      "v2": "Dwight Eisenhower",
+      "v3": "John Kennedy",
+      "v4": "Harry Truman"
+    },
+    "correctAnswer": "v4"
+  }
+]
