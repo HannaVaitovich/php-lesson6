@@ -5,6 +5,9 @@
     <title>Тест</title>
 </head>
 <body>
+<a href="admin2.php">Главная</a>
+<a href="list.php">Список тестов</a>
+    
 <form method="post" action="test.php">
 <?php
 
