@@ -19,6 +19,7 @@ $test = json_decode($test, true);
 
 foreach($test as $qn => $q)
 {
+    if (isset($qn) && isset($q['answers']) && isset($q['question'])) {
     echo '<hr>';
     echo '<h4>'.$q['question'].'</h4>';
 
@@ -26,12 +27,19 @@ foreach($test as $qn => $q)
         echo '<input type="radio" name="a'.$qn.'" value="'.$key.'"> ';
         echo $answer."<br>";
     }
+
+}
+else {
+    echo "Неверная структура теста, выберете другой тест из ".'<a href="list.php">списка</a>!';
+    exit;
+}
+
 }
 
 echo '<input type="hidden" name="test" value="'.$test_name.'">';
 echo '<input type="submit" value="Отправить ответы">';
-
 }
+
 ?>
 </form>
 </body>
