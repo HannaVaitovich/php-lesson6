@@ -48,19 +48,23 @@ $test_name = $_POST['test'];
 $test = file_get_contents($file_dir . $test_name . '.json');
 $test = json_decode($test, true); 
 
-foreach($test as $qn => $q) {
-    if ($q['correctAnswer'] == isset($_POST['a'.$qn])) {
+    foreach($test as $qn => $q)
+{
+    if( $q['correctAnswer'] == $_POST['a'.$qn] ) {
         $correct ++; 
     } else {
         $incorrect ++;
-    }
+}
+
+}
+
 }
 
 echo '<hr>';
 echo 'Правильных ответов: '.$correct.'<br>';
 echo 'Неправильных ответов: '.$incorrect.'<br>';
 
-}
+
 
 
 ?>
