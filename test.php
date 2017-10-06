@@ -57,14 +57,20 @@ $test = file_get_contents($file_dir . $test_name . '.json');
 $test = json_decode($test, true); 
 
     foreach($test as $qn => $q)
-{
+{ 
+    if (isset($qn) && isset($_POST['a'.$qn])) {
     if( $q['correctAnswer'] == $_POST['a'.$qn] ) {
         $correct ++; 
     } else {
         $incorrect ++;
 }
+} else {
+    echo "Ошибка! Bыберете тест из ".'<a href="list.php">списка</a>'." и ответьте на все вопросы!";
+    exit;
+}
 
 }
+
 
 echo '<hr>';
 echo 'Правильных ответов: '.$correct.'<br>';
