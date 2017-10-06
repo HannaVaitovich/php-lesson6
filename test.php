@@ -58,13 +58,11 @@ $test = json_decode($test, true);
 
 }
 
-}
-
 echo '<hr>';
 echo 'Правильных ответов: '.$correct.'<br>';
 echo 'Неправильных ответов: '.$incorrect.'<br>';
 
-
+}
 
 
 ?>
